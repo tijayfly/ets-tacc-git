@@ -1,6 +1,6 @@
 Welcome to the Github repo for ETS Freeway Assist. This will always contain the latest version. The initial commit was v1.5.
 
-Feel free to modify, make pull requests, fork or publish derivative works, but please always credit this repo in any such products.
+Feel free to modify, make pull requests, fork or publish derivative works, but you MUST always credit this repo in all derivatives and be aware it is FORBIDDEN to charge a fee for such products.
 
 ANY PULL REQUESTS CONTAINING MODELS WILL BE REJECTED - THEY ARE DOWNLOADED AT RUNTIME, SO PLEASE ADD THEM TO GITIGNORE.
 
