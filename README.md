@@ -1,3 +1,5 @@
+Self driving cars for Euro Truck Simulator 2. Demo: https://www.youtube.com/watch?v=5H_jdd1XQOU
+
 Welcome to the Github repo for ETS Freeway Assist. This will always contain the latest version. The initial commit was v1.5.
 
 Feel free to modify, make pull requests, fork or publish derivative works, but you MUST always credit this repo in all derivatives and be aware it is FORBIDDEN to charge a fee for such products.
