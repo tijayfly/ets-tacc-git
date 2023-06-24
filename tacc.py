@@ -13,7 +13,7 @@ import win32gui
 import win32con
 import keyboard
 import time
-from directkeys import PressKey, ReleaseKey, W, A, S, D, E, Z, X, R, C, UP, ONE, SPACE
+from directkeys import PressKey, ReleaseKey, W, A, S, D, E, Z, X, R, C, UP, ONE, SPACE, DOWN, SHIFTUP, SHIFTDOWN
 from collections import defaultdict
 from io import StringIO
 from matplotlib import pyplot as plt
@@ -75,7 +75,6 @@ def little_right():
       ReleaseKey(D)
       time.sleep(0.025)
 #autosteer END
-
 
 # This is needed since the notebook is stored in the object_detection folder.
 sys.path.append("..")
@@ -275,7 +274,34 @@ with detection_graph.as_default():
       
       cv2.imshow('window',cv2.resize(image_np,(1056,530)))
 
-      if keyboard.is_pressed('z'):
+      if keyboard.is_pressed('p'):
+        PressKey(D)
+        time.sleep(2)
+        PressKey(UP)
+        time.sleep(2.3)
+        ReleaseKey(D)
+        ReleaseKey(UP)
+        PressKey(SPACE)
+        ReleaseKey(SPACE)
+        time.sleep(2)
+        PressKey(A)
+        time.sleep(1.6)
+        ReleaseKey(A)
+        PressKey(SHIFTDOWN)
+        ReleaseKey(SHIFTDOWN)
+        time.sleep(0.5)
+        PressKey(SHIFTDOWN)
+        ReleaseKey(SHIFTDOWN)
+        time.sleep(2)
+        PressKey(SPACE)
+        ReleaseKey(SPACE)
+        PressKey(UP)
+        time.sleep(1.1)
+        ReleaseKey(UP)
+        PressKey(SPACE)
+        ReleaseKey(SPACE)
+
+      elif keyboard.is_pressed('z'):
         if x == True:  # lane change to the left 
                   autosteerEnabled = False
                   PressKey(A)
