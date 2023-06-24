@@ -4,7 +4,7 @@ Adaptive cruise control is now provided in ETS2 by default (https://www.youtube.
 
 Files:
 - directkeys.py: Exports keycodes for use in tacc.py
-- directleys-trucl.py: Exports keycodes for use in tacc-trucks.py
+- directleys-truck.py: Exports keycodes for use in tacc-trucks.py
 - grabscreen.py: Library 
 - tacc.py: Main script for use with cars (full "Autopilot")
 - tacc-trucks.py: Main script for use with trucks (TACC only)
