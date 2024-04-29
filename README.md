@@ -1,6 +1,6 @@
 RETIRED PRODUCT - long since deprecated, and preserved for archive purposes only. 
 
-Adaptive cruise control is now provided in ETS2 by default (https://www.youtube.com/watch?v=w_5FwZpxGJA), and a variety of Autopilot add-ons by other developers are available - such as EasyPilot (https://easypilot.tk/) and Lane Assist (https://github.com/Tumppi066/Euro-Truck-Simulator-2-Lane-Assist).
+Adaptive cruise control and Lane Assist are now provided by default in ETS 1.50.
 
 Files:
 - directkeys.py: Exports keycodes for use in tacc.py
